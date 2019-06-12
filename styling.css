@@ -157,15 +157,17 @@ img {vertical-align: middle;}
 
 }
 .card {
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.7);
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.1);
   transition: 0.1s;
   width: 20%;
   height:40%;
   border-radius: 10px;
+   box-shadow: 10px 10px 5px grey;
 }
 
 .card:hover {
-  box-shadow: 0 15px 18px 0 rgb(64,64,64)
+  box-shadow: 0 25px 25px 0 rgba(64,64,64);
+
 }
 
 img {
@@ -269,3 +271,9 @@ img {
       display: block;
   }
 }
+
+@media (min-width: 700px) {
+  #clubs {
+      margin-top:-220px;;
+  }
+  }
