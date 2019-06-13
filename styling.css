@@ -272,8 +272,98 @@ img {
   }
 }
 
-@media (min-width: 700px) {
+ @media (min-width: 1000px) {
   #clubs {
-      margin-top:-220px;;
+      margin-top:-200px;
+
   }
+}
+
+
+@media (max-width: 768px) {
+  #clubs {
+      margin-top:45px;
+
   }
+}
+
+
+@media (min-width:1240px) {
+#cardmedia1 {
+
+margin-left:250px;
+margin-top:40px;
+}
+}
+
+
+@media (min-width:1240px) {
+#cardmedia2 {
+margin-left:125px;
+margin-top:10px;
+}
+}
+
+@media (min-width: 1240px) {
+#cardmedia3 {
+
+margin-top:40px;
+}
+}
+
+@media (min-width: 1240px) {
+#cardmedia4 {
+margin-left:-122px;
+margin-top:10px;
+}
+}
+
+
+
+@media (max-width:800px) {
+#logo {
+margin-left:5px;
+}
+}
+
+@media (max-width:800px) {
+#intro {
+margin-left:2px;
+
+}
+}
+
+
+
+
+
+
+@media (max-width:580px) {
+#cardmedia1 {
+
+margin-left:160px;
+margin-top:5px;
+}
+}
+
+
+@media (max-width:580px) {
+#cardmedia2 {
+margin-left:160px;
+margin-top:10px;
+}
+}
+
+@media (max-width: 580px) {
+#cardmedia3 {
+margin-top:10px;
+margin-left:160px;
+}
+}
+
+@media (max-width: 580px) {
+#cardmedia4 {
+margin-left:160px;
+margin-top:10px;
+}
+}
