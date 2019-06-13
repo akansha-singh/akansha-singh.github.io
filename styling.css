@@ -338,7 +338,7 @@ margin-left:2px;
 
 
 
-@media (max-width:580px) {
+@media (max-width:780px) {
 #cardmedia1 {
 
 margin-left:160px;
@@ -347,21 +347,21 @@ margin-top:5px;
 }
 
 
-@media (max-width:580px) {
+@media (max-width:780px) {
 #cardmedia2 {
 margin-left:160px;
 margin-top:10px;
 }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 780px) {
 #cardmedia3 {
 margin-top:10px;
 margin-left:160px;
 }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 780px) {
 #cardmedia4 {
 margin-left:160px;
 margin-top:10px;
