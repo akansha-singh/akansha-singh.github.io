@@ -31,22 +31,32 @@ h1 {
 }
 
 /* Create three equal columns that floats next to each other */
-@media (min-width: 1000px) {
+@media (min-width: 900px) {
+.column {
+  float: left;
+  width: 20%;
+  display: none; /* Hide all elements by default */
+}
+}
+
+@media screen and (min-width: 500px),screen and(max-height:900px) {
 .column {
   float: left;
   width: 25%;
   display: none; /* Hide all elements by default */
 }
 }
-@media (max-width: 800px) {
+
+
+
+@media (max-width: 500px) {
 .column {
   float: left;
   width: 33.33%;
   display: none; /* Hide all elements by default */
+
 }
 }
-
-
 
 
 
@@ -59,13 +69,10 @@ h1 {
 
 
 
-
-
-
 /* Content */
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
 .content {
-  background-color: #D3D3D3;
+  background-color: #FFFFFF;
   padding: 20px;
   margin:10px;
   border-radius:3px;
@@ -74,18 +81,24 @@ h1 {
 
 @media (max-width: 800px) {
   .content {
-  background-color: #D3D3D3;
-
-      padding: 5px;
-
-        border-radius:2px;
+  background-color:#FFFFFF;
+  padding: 5px;
+  border-radius:2px;
 
   }
 }
 
+@media (max-width: 1000px) {
+  .content {
+   height:260px;
+  }
+}
 
-
-
+@media (min-width: 1000px) {
+  .content {
+   height:260px;
+  }
+}
 
 /* The "show" class is added to the filtered elements */
 .show {

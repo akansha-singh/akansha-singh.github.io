@@ -292,7 +292,7 @@ img {
 #cardmedia1 {
 
 margin-left:250px;
-margin-top:40px;
+margin-top:50px;
 }
 }
 
@@ -307,7 +307,7 @@ margin-top:10px;
 @media (min-width: 1240px) {
 #cardmedia3 {
 
-margin-top:40px;
+margin-top:50px;
 }
 }
 
@@ -356,8 +356,8 @@ margin-top:10px;
 
 @media (max-width: 780px) {
 #cardmedia3 {
-margin-top:110px;
-margin-left:160px;
+margin-left:110px;
+margin-top:10px;
 }
 }
 
