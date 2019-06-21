@@ -118,7 +118,60 @@ h1 {
   background-color: #ddd;
 }
 
+.content:hover{
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
 .btn.active {
-  background-color: #666;
+  background-color: #C8C8C8;
   color: white;
 }
+
+@media (max-width: 800px) {
+  #team{
+   height:230px;
+   width:400px;
+
+  }
+}
+
+@media (min-width: 800px) {
+  #team{
+   height:340px;
+   width:600px;
+
+  }
+}
+
+@media (min-width: 1000px) {
+  #logo{
+  height:50px;
+  width:370px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  #logo{
+   height:0px;
+   width:0px;
+    }
+}
+
+
+@media (min-width: 1000px) {
+  #logosmall{
+  height:0px;
+  width:0px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  #logosmall{
+   height:40px;
+   width:60px;
+    }
+}
+
