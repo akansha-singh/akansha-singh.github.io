@@ -1,0 +1,239 @@
+@media (min-width: 1000px) {
+  #logo{
+  height:50px;
+  width:400px;
+  margin-right:190px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  #logo{
+   height:0px;
+   width:0px;
+    }
+}
+
+
+@media (min-width: 1000px) {
+  #logosmall{
+  height:0px;
+  width:0px;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  #logosmall{
+   height:40px;
+   width:60px;
+    }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+  height:350px;
+}
+
+.card:hover{
+ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.b{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.containerr {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+/* Clear floats after containers */
+.containerr::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.containerr img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.containerr span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .containerr {
+    text-align: center;
+  }
+
+  .containerr img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+ /* Timeline vertical line */
+ul.timeline:before {
+    content: ' ';
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #fff;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+    content: ' ';
+    background: #ddd;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+#workshops{
+    background: #E8CBC0;
+    background: -webkit-linear-gradient(to right, #E8CBC0, #636FA4);
+    background: linear-gradient(to right, #E8CBC0, #636FA4);
+    min-height: 100vh;
+}
+
+.text-gray {
+    color: #999;
+}
+
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cardd {
+  margin: 30px auto;
+  width: 240px;
+  height: 240px;
+  border-radius: 40px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.cardd .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.cardd .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.cardd .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.cardd:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25),
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
