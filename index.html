@@ -6,6 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>dsc</title>
 
+
 <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,11 +16,12 @@
     <link type="text/css" rel="stylesheet" href="main.css" />
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="position:fixed;top:0px;width:100%;z-index:9999;">
-        <a href="#" class="navbar-brand">
-            <img src="dsc_linear.png" align="left" id="logo" ></img>
-            <img src="logo.png" align="right" id="logosmall"></img>
-        </a>
+<body style="font-family: 'Montserrat', sans-serif;">
+<nav class="navbar navbar-expand-lg navbar-light" style=";position:fixed;top:0px;width:100%;z-index:9999;background-color:#D3D3D3;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);">
+    <a class="navbar-brand">
+        <img src="dsc_linear.png" align="left" id="logo" style="margin-bottom:10px;margin-top:10px;"></img>
+        <img src="logo.png" align="right" id="logosmall"></img>
+    </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,26 +30,26 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <i style="display:inline;margin-right:-3px;color:gery;" class="fa fa-home fa-lg"></i>
-                <a style="display:inline;" class="nav-link" style="font-size:5px;" href="#">HOME<span class="sr-only">(current)</span></a>
+                <a href="#" <i style="display:inline;margin-right:-8px;color:gery;" class="fa fa-home fa-lg"></i></a>
+                <b><a style="display:inline;font-size:19px;margin:14px;" href="#">HOME<span class="sr-only">(current)</span></a></b>
             </li>
             <li class="nav-item">
-                <a style="display:inline;" class="nav-link" style="font-size:5px;" href="Meet Our Team.html">Our Team</a>
+                <b><a style="display:inline;font-size:19px;margin:14px;" href="Meet Our Team.html">Our Team</a></b>
             </li>
             <li class="nav-item">
-                <a style="display:inline;" class="nav-link" style="font-size:5px;" href="#">Contact Us</a>
-                <i style="display:inline;color:grey" class="fa fa-user-circle-o fa-lg"></i>
+                <b><a style="display:inline;font-size:19px;margin:14px;" href="#">Contact Us</a></b>
+
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
     </div>
 </nav>
 
 
-<div class="container-float" style="padding-top:80px;">
+
+
+
+
+<div class="container-float" style="padding-top:72px;">
     <div class="bd-example">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -92,15 +94,20 @@
 </div>
 
 
+
+
+
+
+
 <br/><br/>
-<center><h3>ABOUT US</h3></center>
+<center><h3>ABOUT US</h3>
 <br/>
 <center><p>Sed fermentum, felis ut cursus varius, purus velit placerat tortor, at faucibus elit purus posuere velit. Integer sit amet felis ligula.</p></center>
 <br/>
 <p>Sed varius vel ligula non luctus. Donec sagittis rhoncus purus ut fermentum. Donec volutpat purus quam, tincidunt venenatis risus tincidunt sed. Curabitur quis risus lorem. Proin consequat mauris fermentum massa dictum, id molestie turpis pharetra. Suspendisse at tempus lacus.
-    ibero magna, volutpat vel ultrices malesuada, rutrum vel elit. In luctus mi id magna tincidunt aliquet. Sed eu tortor nisl, eu viverra mauris. Cras pellentesque ultricies volutpat. Sed fermentum, felis ut cursus varius, purus velit placerat tortor, at faucibus elit purus posuere velit. Integer sit amet felis ligula.
+    ibero magna, volutpat vel ultrices malesuada, rutrum vel elit. In luctus mi id magna tincidunt aliquet. Sed eu tortor nisl, eu viverra mauris. Cras pellentesque ultricies volutpat.
 </p>
-
+</center>
 
 
 <br/>
@@ -304,6 +311,18 @@
 
 
             <script>
+$(document).ready(function() {
+        // Transition effect for navbar
+        $(window).scroll(function() {
+          // checks if window is scrolled more than 500px, adds/removes solid class
+          if($(this).scrollTop() > 500) {
+              $('.navbar').addClass('solid');
+          } else {
+              $('.navbar').removeClass('solid');
+          }
+        });
+});
+
     $('.carousel').carousel()
 </script>
 

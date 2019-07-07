@@ -1,8 +1,35 @@
+
+
+#nav{
+ background: #E8CBC0;
+    background: -webkit-linear-gradient(to right, #E8CBC0, #636FA4);
+    background: linear-gradient(to right, #E8CBC0, #636FA4);
+}
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color:#663399;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
 @media (min-width: 1000px) {
   #logo{
-  height:50px;
+  height:37px;
   width:400px;
-  margin-right:190px;
+  margin-right:500px;
   }
 }
 
