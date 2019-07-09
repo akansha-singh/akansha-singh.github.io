@@ -16,7 +16,7 @@
     <link type="text/css" rel="stylesheet" href="main.css" />
 </head>
 
-<body style="font-family: 'Montserrat', sans-serif;">
+<body style="font-family: 'Montserrat', sans-serif; background-color:#F8F8F8;">
 <nav class="navbar navbar-expand-lg navbar-light" id="nav" style=";position:fixed;top:0px;width:100%;z-index:9999;background-color:#D3D3D3;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);">
     <a class="navbar-brand">
         <img src="dsc_linear.png" align="left" id="logo" style="margin-bottom:10px;margin-top:10px;"></img>
@@ -28,22 +28,26 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <ul id="navb" class="navbar-nav ml-auto mt-2 mt-lg-0" >
             <li class="nav-item active">
-                <a href="#" <i style="display:inline;margin-right:-8px;color:gery;" class="fa fa-home fa-lg"></i></a>
-                <a style="display:inline;font-size:19px;margin:14px;" href="#">HOME<span class="sr-only">(current)</span></a>
+                <a id="home" style="display:inline;font-size:17px;margin-left:-5px;margin-right:12px;margin-bottom:-1px;" href="index.html">home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a style="display:inline;font-size:19px;margin:14px;" href="Meet Our Team.html">Our Team</a>
+                <a id="team" style="display:inline;font-size:17px;margin-left:12px;margin-right:12px;margin-top:12px;" href="Meet Our Team.html">team</a>
             </li>
             <li class="nav-item">
-                <a style="display:inline;font-size:19px;margin:14px;" href="#">Contact Us</a>
-
+                <a id="projects" style="display:inline;font-size:17px;margin-left:12px;margin-right:12px;margin-top:12px;" href="#project">projects</a>
+            </li>
+            <li class="nav-item">
+                <a id="news" style="display:inline;font-size:17px;margin-left:12px;margin-right:12px;margin-top:12px;" href="#updates">news</a>
+            </li>
+            <li class="nav-item">
+                <a id="contact" style="display:inline;font-size:17px;margin:12px;" href="#">contact us</a>
             </li>
         </ul>
     </div>
 </nav>
-
+<br/>
 
 
 
@@ -97,22 +101,20 @@
 
 
 
-
+<div style="">
 
 <br/><br/>
-<center><h3 id="nab">ABOUT US</h3>
+<center><h3 style=" color:#663399;font-weight:bold;">ABOUT US</h3></center>
 <br/>
-<center><p>Sed fermentum, felis ut cursus varius, purus velit placerat tortor, at faucibus elit purus posuere velit. Integer sit amet felis ligula.</p></center>
-
-<p>Sed varius vel ligula non luctus. Donec sagittis rhoncus purus ut fermentum. Donec volutpat purus quam, tincidunt venenatis risus tincidunt sed. Curabitur quis risus lorem. Proin consequat mauris fermentum massa dictum, id molestie turpis pharetra. Suspendisse at tempus lacus.
+<center><p  style="margin-left:50px;margin-right:90px;">Sed fermentum, felis ut cursus varius, purus velit placerat tortor, at faucibus elit purus posuere velit. Integer sit amet felis ligula.Sed varius vel ligula non luctus. Donec sagittis rhoncus purus ut fermentum. Donec volutpat purus quam, tincidunt venenatis risus tincidunt sed. Curabitur quis risus lorem. Proin consequat mauris fermentum massa dictum, id molestie turpis pharetra. Suspendisse at tempus lacus.
     ibero magna, volutpat vel ultrices malesuada, rutrum vel elit. In luctus mi id magna tincidunt aliquet. Sed eu tortor nisl, eu viverra mauris. Cras pellentesque ultricies volutpat.
 </p>
 </center>
 
 
 <br/>
-<center><h3 id="nab">CLUBS</h3></center>
-<br/><br/><br/>
+<center><h3 style=" color:#663399;font-weight:bold;">CLUBS</h3></center>
+<br/><br/>
 <div class="container">
     <div class="row">
 
@@ -158,7 +160,7 @@
         </div>
     </div>
 
-
+</div>
 </div>
 <br/><br/><br/>
 
@@ -215,16 +217,15 @@
 
 
 
-
     <div class="container-float" style="width:100%;height:auto;background-color:#D3D3D3;">
         <br/><br/>
-        <center><h4 style="color:white;margin-top:50px;">TESTIMONIALS</h4></center>
-        <br/><br/>
+        <center><h2 style="color:white;margin-top:50px;">TESTIMONIALS</h2></center>
+        <br/>
         <center><p>Sed fermentum, felis ut cursus varius, purus velit placerat tortor, at faucibus elit purus posuere velit. Integer sit amet felis ligula.</p></center>
         <div class="row">
             <div class="col-lg-3 col-sm-6 col-md-6 col-xs-6">
                 <div class="customDiv">
-                    <div  class="containerr" style="margin:15px;height:300px;">
+                    <div  class="containerr" style="margin:15px;height:300px; background-color:white;">
                         <img src="13.jpg" alt="Avatar" style="width:90px;">
                         <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
                         <p>John Doe saved us from a web disaster.</p>
@@ -234,7 +235,8 @@
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 col-md-6 col-xs-6">
-                <div class="customDiv"> <div  class="containerr" style="margin:15px;height:300px;">
+                <div class="customDiv">
+                    <div  class="containerr" style=":15px;height:300px; background-color:white;">
                     <img src="13.jpg" alt="Avatar" style="width:90px;">
                     <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
                     <p>John Doe saved us from a web disaster.</p>
@@ -247,7 +249,7 @@
 
             <div class="col-lg-3 col-sm-6 col-md-6 col-xs-6">
                 <div class="customDiv">
-                    <div  class="containerr" style="margin:15px;height:300px;">
+                    <div  class="containerr" style="margin:15px;height:300px; background-color:white;">
                         <img src="13.jpg" alt="Avatar" style="width:90px;">
                         <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
                         <p>John Doe saved us from a web disaster.</p>
@@ -259,25 +261,154 @@
             <div class="col-lg-3 col-sm-6 col-md-6 col-xs-6">
                 <div class="customDiv">
 
-                    <div  class="containerr" style="margin:15px;height:300px;">
+                    <div  class="containerr" style="margin:15px;height:300px; background-color:white;">
                         <img src="13.jpg" alt="Avatar" style="width:90px;">
                         <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
                         <p>John Doe saved us from a web disaster.</p>
                     </div>
-</div>
+                </div>
             </div>
-
         </div>
         <br/><br/><br/>
     </div>
 </div>
 
-<br/> <br/>
+
+
+<div style="background-color:background: #606c88;
+    background: -webkit-linear-gradient(to right, #606c88, #3f4c6b);
+    background: linear-gradient(to right, #606c88, #3f4c6b);">
+    <div class="container-float" id="project" style="width:100%;height:auto;">
+        <br/><br/>
+        <center><h1 style="color:white;margin-top:50px;">Projects</h1>
+            <br/>
+            <p style="color:white;">Sed fermentum, felis ut cursus varius, purus velit placerat tortor, at faucibus elit purus posuere velit. Integer sit amet felis ligula.</p></center><br/><br/><br/>
+        <div class="row">
+            <div class="col-lg-2 col-sm-12 col-md-2 col-xs-12">
+                <div class="customDiv" >
+                    <div style="height:200px;">
+
+                        <p style="color:white;"><span>Chris Fox.</span> CEO at Mighty Schools.
+                            John Doe saved us from a web disaster.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+                <div class="customDiv">
+                    <div style="height:200px;">
+
+                       <h2>SCREENSHOT HERE</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+                <div class="customDiv">
+                    <div style="height:250px;">
+
+                        <h2>SCREENSHOT HERE</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-2 col-xs-12">
+                <div class="customDiv">
+                    <div  style="height:200px;">
+
+                        <p style="color:white;"><span>Chris Fox.</span> CEO at Mighty Schools.
+                            John Doe saved us from a web disaster.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br/><br/><br/>
+        <div class="row">
+            <div class="col-lg-2 col-sm-12 col-md-2 col-xs-12">
+                <div class="customDiv" >
+                    <div style="height:200px;">
+
+                        <p style="color:white;"><span>Chris Fox.</span> CEO at Mighty Schools.
+                            John Doe saved us from a web disaster.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+                <div class="customDiv">
+                    <div style="height:200px;">
+
+                        <h2>SCREENSHOT HERE</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12 col-md-4 col-xs-12">
+                <div class="customDiv">
+                    <div style="height:250px;">
+
+                        <h2>SCREENSHOT HERE</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-12 col-md-2 col-xs-12">
+                <div class="customDiv">
+                    <div  style="height:200px;">
+
+                        <p style="color:white;"><span>Chris Fox.</span> CEO at Mighty Schools.
+                            John Doe saved us from a web disaster.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br/><br/><br/>
+</div>
+<br/><br/><br/>
+<div style="background-color:background: #b24592;
+    background: -webkit-linear-gradient(to right, #b24592, #f15f79);
+    background: linear-gradient(to right, #b24592, #f15f79);">
+    <div class="container-float" id="updates" style="width:100%;height:auto;">
+        <br/><br/>
+        <center><h1 style="color:white;margin-top:50px;">News and Updates</h1>
+            <br/>
+            <p style="color:white;">Sed fermentum, felis ut cursus varius, purus velit placerat tortor, at faucibus elit purus posuere velit. Integer sit amet felis ligula.</p></center><br/><br/><br/>
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 col-md-6 col-xs-12">
+                <div class="customDiv" id="news1">
+                    <div  class="containerr" style="height:300px;">
+                        <div style="height:60%;width:100%;background-color:white;"></div><br/>
+                        <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+                        <p>John Doe saved us from a web disaster.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-md-6 col-xs-12">
+                <div class="customDiv">
+                    <div  class="containerr" id="news3" >
+                        <div style="height:60%;width:100%;background-color:white;"></div><br/>
+                        <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+                        <p>John Doe saved us from a web disaster.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12 col-md-12 col-xs-12">
+                <div class="customDiv" id="news2">
+                    <div  class="containerr" style="height:300px;">
+                        <div style="height:60%;width:100%;background-color:white;"></div><br/>
+                        <p><span>Chris Fox.</span> CEO at Mighty Schools.</p>
+                        <p>John Doe saved us from a web disaster.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br/><br/><br/>
+    </div>
+</div>
+<br/><br/><br/>
 
 
 
-    
-<br/><br/><br/><br/>
 
 
 
@@ -310,7 +441,8 @@
 
 
 
-            <script>
+
+<script>
 $(document).ready(function() {
         // Transition effect for navbar
         $(window).scroll(function() {

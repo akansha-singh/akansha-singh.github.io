@@ -1,9 +1,9 @@
 
 
 #nav{
- background: #E8CBC0;
-    background: -webkit-linear-gradient(to right, #E8CBC0, #636FA4);
-    background: linear-gradient(to right, #E8CBC0, #636FA4);
+ background: #be93c5;
+    background: -webkit-linear-gradient(to right, #be93c5, #7bc6c6);
+    background: linear-gradient(to right, #be93c5, #7bc6c6);
 }
 
 
@@ -26,21 +26,27 @@ a:active {
 }
 
 #nab:hover {
-  color:#663399;
-  font-weight:bold;
+
 }
 
 
-@media (min-width: 1000px) {
+@media (min-width:1000px) {
   #logo{
   height:37px;
   width:400px;
-  margin-right:500px;
+
   }
 }
 
 
-@media (max-width: 1000px) {
+@media (min-width:1000px) {
+#navb{
+float:right;
+}
+}
+
+
+@media (max-width:1000px) {
   #logo{
    height:0px;
    width:0px;
@@ -48,7 +54,7 @@ a:active {
 }
 
 
-@media (min-width: 1000px) {
+@media (min-width:1000px) {
   #logosmall{
   height:0px;
   width:0px;
@@ -56,12 +62,51 @@ a:active {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width:1000px) {
   #logosmall{
    height:40px;
    width:60px;
     }
 }
+
+@media (max-width:1000px) {
+  #home{
+   float:right;
+    }
+}
+
+@media (max-width:1000px) {
+  #iconhome{
+   float:right;
+   margin-right:5px;
+    }
+}
+
+
+@media (max-width:1000px) {
+  #team{
+   float:right;
+    }
+}
+
+@media (max-width:  1000px) {
+  #contact{
+   float:right;
+    }
+}
+
+@media (max-width:  1000px) {
+  #projects{
+   float:right;
+    }
+}
+
+@media (max-width:  1000px) {
+  #news{
+   float:right;
+    }
+}
+
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -136,7 +181,7 @@ button:hover, a:hover {
 @media (max-width: 500px) {
   .containerr {
     text-align: center;
-  }
+    }
 
   .containerr img {
     margin: auto;
@@ -197,9 +242,9 @@ li.timeline-item::before {
 
 
 #workshops{
-    background: #E8CBC0;
-    background: -webkit-linear-gradient(to right, #E8CBC0, #636FA4);
-    background: linear-gradient(to right, #E8CBC0, #636FA4);
+    background: #7b4397;
+    background: -webkit-linear-gradient(to right, #7b4397, #267871);
+    background: linear-gradient(to right, #7b4397, #267871);
     min-height: 100vh;
 }
 
@@ -270,3 +315,41 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   }
 }
 
+@media (min-width:1000px) {
+  #news1{
+   margin-left:60px;
+    }
+}
+
+@media (min-width:1000px) {
+  #news2{
+   margin-right:60px;
+    }
+}
+
+@media (min-width:1000px) {
+  #news3{
+   height:400px;margin-top:-30px
+    }
+}
+
+@media (max-width:1000px) {
+  #news3{
+   height:300px;
+
+    }
+}
+
+
+.slides {
+scroll-behavior: smooth;
+}
+
+.slider {
+scroll-behavior: smooth;
+  display: flex;
+  overflow-x: auto;
+}
+.slide {
+  flex-shrink: 0;
+}
